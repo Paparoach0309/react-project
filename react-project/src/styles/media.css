@@ -1,0 +1,64 @@
+@media (max-width: 1080px) {
+    
+    .app-wrapper {
+    height: 100vh;
+    }
+    
+    .teams-block .teams li {
+        width: calc(33.3% - 80px);
+    }
+    
+    .container .selected{   
+        width: calc(100% - 10px) !important;
+        max-height: 50vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-list-item {
+        display: none;
+    }
+
+    .teams-block .teams li {
+        width: calc(50% - 80px);
+    }
+    
+    .stadiums li {
+        width: calc(100% - 80px);
+    }
+
+    .container .selected{   
+        width: calc(100% - 10px) !important;
+        max-height: 40vh !important;
+    }
+        
+}
+
+@media (max-width: 580px) {
+    .teams {
+        justify-content: center;
+    }
+    
+    .teams-block .teams li {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .nav {
+        display: flex;
+        flex-direction: column;align-items: center;
+        background-color: #1c2a8a;
+    }
+
+    .teams-block .teams li {
+        width: calc(100% - 80px);
+    }
+    
+    .container .selected{   
+        width: calc(100% - 10px) !important;
+        max-height: 30vh !important;
+    }
+        
+}

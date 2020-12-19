@@ -1,0 +1,38 @@
+.slider {
+    position: relative;
+    max-height: calc(100% - 180px);
+    overflow: hidden;
+}
+
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-prev {
+    position: absolute;
+    top: calc(50% - 90px);
+    left: 0;
+    font-size: 180px;
+    opacity: 0.1;
+    border: none;
+}
+
+.btn-next {
+    position: absolute;
+    top: calc(50% - 90px);
+    right: 0;
+    font-size: 180px;
+    opacity: 0.1;
+    border: none;
+}
+
+.btn-prev:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.btn-next:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
