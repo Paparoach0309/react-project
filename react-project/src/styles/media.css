@@ -9,7 +9,7 @@
     }
     
     .container .selected{   
-        width: calc(100% - 10px) !important;
+        /*width: calc(100% - 10px) !important;*/
         max-height: 50vh !important;
     }
 }

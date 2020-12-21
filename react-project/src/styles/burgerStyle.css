@@ -56,6 +56,10 @@
     transform: translateX(-50%) rotate(-45deg);
 }
 
+.burger-menu-activ {
+    margin-top: -180px;
+}
+
 .burger-menu-nav {
     padding-top: 80px;
     position: fixed;
